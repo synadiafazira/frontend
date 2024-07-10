@@ -1,0 +1,20 @@
+.warna {
+    color : tomato;
+    font-weight: bold;
+    font-size: 20x;
+}
+
+.kotak1 {
+    color : white;
+    background: #2d2d2d;
+    border: 5px solid tomato;
+    width: 200px;
+    
+}
+
+.kotak2 {
+    color :white;
+    background: #2d2d2d ;
+    border: 5px solid aqua;
+    width: 200px;
+}
