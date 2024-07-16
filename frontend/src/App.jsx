@@ -2,24 +2,25 @@
 function App() {
   return (
     <> 
-      <div className="container-fluid bg-dark">
+      <div className="container-fluid bg-dark bg-gradient">
         <div className="container p-2">
-          <div className="row text-light"><h5>Album</h5> </div>
+          <div className="row text-light"><h5><b>Album</b></h5> 
+          
+          </div>
         </div>
       </div>
-      <div className="container-fluid bg-light">
+      <div className="container-fluid bg-light p-5">
       <div className="container p-5">
         <div className="row">
-         <center><h1>Album Example</h1></center> 
+         <center><p className="fs-1 fw-light">Album example</p></center> 
         </div>
         <div className="row">
-         <center>Lorem ipsum dolor sit amet consectetur adipisicing 
-          Officiis qui<br/> aperiam quos laboriosam minima accusamus 
-          eligendi eius rerum perferendis <br/> deserunt beatae quis. ndsnd jasdiheufjfja </center> 
+         <center><p className="fs-5 fw-light text-secondary">Something short and leading about the collection below—its contents,
+          <br/> the creator, etc. Make it short and sweet, but not too short so folks don't<br/> simply skip over it entirely.</p> </center> 
         </div>
         <div className="container">
         <center>
-        <div className="col-6 p-3">
+        <div className="col-6 p-2">
         <button type="button" class="btn btn-primary m-2">Main call to action</button> 
         <button type="button" class="btn btn-secondary">Secondary action</button>
         </div>
@@ -32,46 +33,46 @@ function App() {
         <div className="container">
         <div className="row">
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
             </div>
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group" role="group" aria-label="First group">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
               <button type="button" class="btn btn-outline-secondary">View</button>
               <button type="button" class="btn btn-outline-secondary">Edit</button>
             </div>
-              <div class="input">9ms</div>
+              <div class="small fw-light text-secondary">9 mins</div>
           </div>
             </div>
             </div>
             </div>
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
@@ -80,46 +81,46 @@ function App() {
         
             <div className="row">
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
             </div>
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
             </div>
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
@@ -128,46 +129,46 @@ function App() {
            
             <div className="row">
             <div className="col-4 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
             </div>
             <div className="col-4 p-2 ">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
             </div>
-            <div className="col-2 p-2">
-            <div class="card" style={{width: '20rem'}}>
+            <div className="col-4 p-2">
+            <div class="card" style={{width: '21rem'}}>
             <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="..."/>
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-outline-secondary">Edit</button>
-              </div>
-                <div class="input">9ms</div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-outline-secondary">Edit</button>
+            </div>
+                <div class="small fw-light text-secondary">9 mins</div>
             </div>
             </div>
             </div>
@@ -177,10 +178,19 @@ function App() {
         <br />
         </div>  
     
-      <div className="container-fluid bg-white">
-          <div className="container p-5">
-            <div className="row ">Album example is © Bootstrap, but please download and customize it for yourself!<br/>
-            New to Bootstrap? Visit the homepageor read our getting started guide.</div>
+      <div className="container-fluid bg-white p-5">
+          <div className="container">
+            <div className="row fs-6 text-secondary">
+            <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!<br/>
+              New to Bootstrap? <a href="#" style={{textDecoration:'none'}}>Visit the homepage</a> or read our  
+              <a href="#" style={{textDecoration:'none'}}> getting started guide. </a></p>
+            </div>
+                <div> <a href="#" className="text-end" style={{textDecoration:'none'}}>Back to Top</a></div>
+            </div>
+              
+              </div>
           </div>
           </div>
     </>
